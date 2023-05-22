@@ -1,0 +1,30 @@
+### node
+node_modules
+/dist
+
+miniprogram_npm
+
+### IDEA ###
+.idea
+
+### MacOS ###
+.DS_Store
+
+### VS Code ###
+.vscode
+
+
+### dev 环境不追踪配置文件 ###
+
+yarn.lock
+package-lock.json
+
+*/dist
+*/*.log
+
+**/*-build
+**/*_build_**
+**/*-build-**
+**/*-build.*
+
+
